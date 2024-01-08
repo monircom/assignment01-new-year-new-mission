@@ -124,7 +124,7 @@
 
 .midnight-party-main-button button {
 
-    
+
     background: none;
     display: inline-flex;
     padding: 16px 32px;
@@ -135,7 +135,7 @@
 }
 
 .midnight-party-main-button button span {
-    
+
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -164,8 +164,6 @@
     padding-top: 48px;
     padding-left: 32px;
 }
-
-
 
 
 .midnight-party-img img {
@@ -502,7 +500,7 @@
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     display: inline-flex;
-    padding: 24px 56px;
+    padding: 24px 40px;
     border: none;
     cursor: pointer;
     transition: all 1s;
@@ -514,10 +512,130 @@
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    text-transform: capitalize;
 
 }
 
 #newsletter form button:hover {
+    background: #2ab875;
+}
+
+
+/* Footer Style */
+
+
+footer {
+    background: #FFF8F3;
+    background: #070211;
+    margin-top: 100px; 
+    text-align: center;   
+    /* padding: 130px 140px; */
+}
+
+.footer-main{
+    max-width: 1320px;
+}
+
+.footer-row-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+
+.footer-row-top-left {
+    max-width: 375px;
+
+}
+
+.footer-row-top-left h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.call-img {
+    display: flex;
+}
+
+.call-img a {
+    padding-right: 16px;
+}
+
+.footer-row-top-right h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+}
+
+.footer-row-middle {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.footer-row-middle .social-links img {
+    padding-right: 24px;
+}
+
+.footer-hr-div {
+    margin: 50px 240px;
+    width: 80%;    
+    text-align: center;
+}
+
+.footer-hr {
+    background: rgba(255, 255, 255, 0.15);
+    text-align: center;
+}
+
+.footer-row-bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.footer-row-bottom-left h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+
+}
+
+.footer-row-bottom-right h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.footer-row-bottom-right button {
+
+
+    background: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.footer-row-bottom-right button span {
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.footer-row-bottom-right button:hover {
+    border-radius: 8px;
     background: #2ab875;
 }
