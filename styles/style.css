@@ -257,12 +257,12 @@ button:hover {
     width: 364.844px;
     height: 364.844px;
     flex-shrink: 0;
-    padding: 20px;
+    padding: 25px;
 
 }
 
 .comingsoon-right-text{
-    max-width: 400px;
+    max-width: 350px;
     text-align: left;
     margin: 0 auto;
     padding-top: 100px;
