@@ -122,6 +122,39 @@
 
 }
 
+.midnight-party-main-button button {
+
+    
+    background: none;
+    display: inline-flex;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+
+}
+
+.midnight-party-main-button button span {
+    
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.midnight-party-main-button button:hover {
+    border-radius: 8px;
+    background: #2ab875;
+}
+
+.midnight-party-main-button {
+    padding-top: 48px;
+    padding-left: 32px;
+}
+
 .midnight-party-text h4 {
     color: #FFF;
     font-family: Inter;
@@ -131,6 +164,9 @@
     padding-top: 48px;
     padding-left: 32px;
 }
+
+
+
 
 .midnight-party-img img {
     width: 100%;
@@ -182,7 +218,6 @@
     display: inline-flex;
     padding: 16px 32px;
     border: none;
-
     cursor: pointer;
     transition: all 1s;
 }
@@ -197,7 +232,7 @@
 
 }
 
-button:hover {
+.address-main-text button:hover {
     background: #2ab875;
 }
 
@@ -333,8 +368,8 @@ button:hover {
     display: flex;
     background-color: #fff8f3;
     background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
-    background-repeat: no-repeat;
     background-position: bottom left, top right;
+    background-repeat: no-repeat;
 }
 
 
@@ -347,6 +382,9 @@ button:hover {
 
 /* portfolio style */
 
+.portfolio-main {
+    margin-top: 100px;
+}
 
 .portfolio-text {
     text-align: left;
@@ -407,6 +445,79 @@ button:hover {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: 1s ease;
-    
+
 }
 
+
+/* Subscribe Newsletter  style */
+#newsletter {
+    margin: 100px 0;
+}
+
+.newsletter-main {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 122px 0;
+}
+
+
+
+.newsletter-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+.newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 22px 212px 48px 212px;
+
+}
+
+#newsletter form {
+    max-width: 650px;
+    margin: 20px auto;
+    display: flex;
+
+}
+
+#newsletter form input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 25px;
+    font-size: 18px;
+    font-family: Inter;
+    outline: none;
+}
+
+#newsletter form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    display: inline-flex;
+    padding: 24px 56px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#newsletter form button span {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#newsletter form button:hover {
+    background: #2ab875;
+}
