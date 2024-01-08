@@ -15,7 +15,7 @@
 .container {
     width: 80%;
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .banner-main {
@@ -50,7 +50,37 @@
     font-weight: 900;
     padding-top: 16px;
     padding-bottom: 177px;
+}
 
+/* happy-new-year section style */
 
-    /* 131.944% */
+.happy-new-year-main {
+    text-align: center;
+    margin: 100px auto;
+    max-width: 1320px;
+}
+
+.happy-new-year-content h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.happy-new-year-content h3,
+.h3-slogan {
+    color: #F00;    
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.happy-new-year-content h2 {
+    color: #070211;   
+    font-family: Inter;
+    font-size: 48px;   
+    font-weight: 700;
+    padding-bottom: 48px;
 }
