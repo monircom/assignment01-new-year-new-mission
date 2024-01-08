@@ -70,7 +70,7 @@
 
 .happy-new-year-content h3,
 .h3-slogan {
-    color: #F00;    
+    color: #F00;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
@@ -78,9 +78,60 @@
 }
 
 .happy-new-year-content h2 {
-    color: #070211;   
+    color: #070211;
     font-family: Inter;
-    font-size: 48px;   
+    font-size: 48px;
     font-weight: 700;
     padding-bottom: 48px;
+}
+
+
+
+/* midnight-party section style */
+
+.midnight-party-main {
+    display: flex;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+}
+
+.midnight-party-text {
+    text-align: left;
+    max-width: 642px;
+    padding-left: 126px;
+}
+
+.midnight-party-text h1 {
+    max-width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;    
+    font-weight: 900;
+    letter-spacing: 7.04px;
+    padding-top: 126px;
+
+}
+
+.midnight-party-text p {
+    max-width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 24px;
+
+}
+
+.midnight-party-text h4 {
+    color: #FFF;   
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 48px;
+    padding-left: 32px;
+}
+
+.midnight-party-img img{
+    width: 100%;
+    mix-blend-mode: lighten;
 }
