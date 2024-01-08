@@ -261,7 +261,7 @@ button:hover {
 
 }
 
-.comingsoon-right-text{
+.comingsoon-right-text {
     max-width: 350px;
     text-align: left;
     margin: 0 auto;
@@ -270,13 +270,14 @@ button:hover {
 
 }
 
-.comingsoon-right-text h1{
+.comingsoon-right-text h1 {
     color: #F00;
     font-family: Inter;
-    font-size: 48px;    
+    font-size: 48px;
     font-weight: 700;
 }
-.comingsoon-right-text p{
+
+.comingsoon-right-text p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -284,7 +285,72 @@ button:hover {
     padding-top: 16px;
 }
 
-.comingsoon-right-text-img{
+.comingsoon-right-text-img {
     width: 100%;
     padding-top: 43px;
+}
+
+/* Holiday Sale Style */
+
+.holiday-sale-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.holiday-sale-text h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sale-text h1 span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sale-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+
+
+.holiday-sale-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 64px 126px 126px;
+}
+
+.holiday-sale-img {
+    display: flex;
+    background-color: #fff8f3;
+    background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom left, top right;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+    /* display: flex; */
+    /* border-radius: 16px 0px 16px 16px; */
+    /* background: #F00; */
+}
+
+.holiday-sale-img-left img {
+    width: 100%;
+}
+
+
+.holiday-sale-img-right img{
+    /* width: 100%; */
+    padding-top: 76px;
+    /* padding-right: 220px; */
+    margin-right: 200px;
+    
 }
