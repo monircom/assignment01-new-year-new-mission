@@ -335,11 +335,6 @@ button:hover {
     background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom left, top right;
-    background-blend-mode: multiply;
-    mix-blend-mode: multiply;
-    /* display: flex; */
-    /* border-radius: 16px 0px 16px 16px; */
-    /* background: #F00; */
 }
 
 .holiday-sale-img-left img {
@@ -348,9 +343,7 @@ button:hover {
 
 
 .holiday-sale-img-right img{
-    /* width: 100%; */
     padding-top: 76px;
-    /* padding-right: 220px; */
-    margin-right: 200px;
+     padding-right: 225px;
     
 }
