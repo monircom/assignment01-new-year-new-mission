@@ -347,3 +347,23 @@ button:hover {
      padding-right: 225px;
     
 }
+
+
+/* portfolio style */
+
+.portfolio-img-main{
+   /* display: flex; */
+}
+
+.portfolio-img-top{
+    display: flex;
+}
+
+.portfolio-img-bottom{
+    display: flex;
+}
+.portfolio-img{
+width: 424px;
+height: 450px;
+flex-shrink: 0;
+}
