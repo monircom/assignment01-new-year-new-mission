@@ -604,9 +604,11 @@ footer {
 
 
 }
-
+.footer-row-bottom-left{
+    padding-left: 200px;
+}
 .footer-row-bottom-right{
-padding-left: 1000px;
+padding-left: 800px;
 }
 
 .footer-row-bottom-right button {
