@@ -455,17 +455,19 @@
 
 /* Subscribe Newsletter  style */
 #newsletter {
-    margin: 100px 0;
+    margin: 100px 0;    
 }
 
 .newsletter-main {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
-    padding: 122px 0;
+    /* padding: 122px 0; */
 }
 
-
+.newsletter-text img{
+    padding-top: 80px;
+}
 
 .newsletter-text h2 {
     color: #070211;
@@ -482,6 +484,11 @@
     font-weight: 400;
     padding: 22px 212px 48px 212px;
 
+}
+
+.newsletter-form{
+
+    padding-bottom: 80px;
 }
 
 #newsletter form {
