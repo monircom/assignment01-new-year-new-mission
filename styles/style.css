@@ -27,7 +27,6 @@
 
 .banner-main-text {
     max-width: 632px;
-    text-align: center;
     margin: 0px auto;
 }
 
@@ -54,7 +53,7 @@
 .happy-new-year-main {
     text-align: center;
     margin: 100px auto;
-    max-width: 1320px;
+
 }
 
 .happy-new-year-content h1 {
@@ -65,8 +64,7 @@
     padding-bottom: 48px;
 }
 
-.happy-new-year-content h3,
-.h3-slogan {
+.happy-new-year-content h3 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -88,8 +86,9 @@
 
 .midnight-party-main {
     display: flex;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     border-radius: 16px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
     margin-top: 100px;
     /* justify-content: space-around; */
 }
@@ -109,8 +108,6 @@
     font-weight: 900;
     letter-spacing: 7.04px;
     padding-top: 126px;
-
-
 }
 
 .midnight-party-text p {
@@ -123,8 +120,6 @@
 }
 
 .midnight-party-main-button button {
-
-
     background: none;
     display: inline-flex;
     padding: 16px 32px;
@@ -135,7 +130,6 @@
 }
 
 .midnight-party-main-button button span {
-
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -182,8 +176,6 @@
     border-radius: 16px;
     text-align: center;
     margin-top: 100px;
-
-
 }
 
 .address-main-text {
@@ -362,18 +354,30 @@
     padding: 0px 64px 126px 126px;
 }
 
-.holiday-sale-img {
-    display: flex;
+.holiday-sale-cover {
     background-color: #fff8f3;
     background-image: url('../images/Rectangle\ 2.png'), url('../images/Rectangle\ 1.png');
     background-position: bottom left, top right;
     background-repeat: no-repeat;
 }
 
+.holiday-sale-img {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.holiday-sale-img-left {   
+    height: 661px;
+    /* mix-blend-mode: lighten; */
+}
 
 .holiday-sale-img-right img {
-    padding-top: 50px;
-    padding-right: 222px;
+    width: 220px;
+    height: 220px;
+    padding-bottom: 300px;
+    /* padding-top: 50px; */
+    /* padding-right: 222px; */
 
 }
 
@@ -526,8 +530,8 @@
 footer {
     background: #FFF8F3;
     background: #070211;
-    margin-top: 100px; 
-    text-align: center;   
+    margin-top: 100px;
+    text-align: center;
     /* padding: 130px 140px; */
 }
 
@@ -577,7 +581,7 @@ footer {
 
 .footer-hr-div {
     margin: 50px 240px;
-    width: 80%;    
+    width: 80%;
     text-align: center;
 }
 
@@ -586,7 +590,7 @@ footer {
     text-align: center;
 }
 
-.footer-row-bottom{
+.footer-row-bottom {
     display: flex;
     justify-content: space-around;
     padding-bottom: 100px;
@@ -597,8 +601,12 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    
 
+
+}
+
+.footer-row-bottom-right{
+padding-left: 1000px;
 }
 
 .footer-row-bottom-right button {
@@ -606,7 +614,7 @@ footer {
 
     background: none;
     display: inline-flex;
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
     border: none;
     cursor: pointer;
     transition: all 1s;
@@ -620,11 +628,10 @@ footer {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    text-transform: uppercase;
 
 }
 
-.footer-row-bottom-right button:hover {
+/* .footer-row-bottom-right button:hover {
     border-radius: 8px;
     background: #2ab875;
-}
+} */
